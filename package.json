@@ -5,11 +5,28 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "vue-cli-service serve --mode dev",
+    "dat": "vue-cli-service serve --mode dat",
+    "stg": "vue-cli-service serve --mode stg",
+    "pre": "vue-cli-service serve --mode pre",
+    "prd": "vue-cli-service serve --mode prd",
+    "build-dat": "vue-cli-service build --mode dat",
+    "build-stg": "vue-cli-service build --mode stg",
+    "build-pre": "vue-cli-service build --mode pre",
+    "build-prd": "vue-cli-service build --mode prd"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "echarts": "^4.6.0",
+    "filemanager-webpack-plugin": "^2.0.5",
+    "fs": "^0.0.1-security",
+    "jsonp": "^0.2.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue": "^2.6.11",
+    "vue-axios": "^2.1.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.2.0",
